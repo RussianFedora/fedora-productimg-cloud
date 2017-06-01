@@ -15,7 +15,7 @@ class FedoraCloudInstallClass(FedoraBaseInstallClass):
     name = "Fedora Cloud"
     stylesheet = "/usr/share/anaconda/fedora-cloud.css"
     sortPriority = FedoraBaseInstallClass.sortPriority + 1
-    defaultPackageEnvironment = "cloud-product-environment"
+    defaultPackageEnvironment = "rfremix-cloud-server-environment"
 
     def setDefaultPartitioning(self, storage):
         autorequests = [PartSpec(mountpoint="/", fstype=storage.default_fstype,
