@@ -3,7 +3,7 @@
 
 Name:           fedora-productimg-cloud
 Version:        26
-Release:        1%{?dist}.R
+Release:        2%{?dist}.R
 Summary:        Installer branding and configuration for Fedora Cloud
 
 # Copyright and related rights waived via CC0
@@ -70,6 +70,9 @@ popd
 %{_datadir}/fedora-productimg/product.img
 
 %changelog
+* Tue Sep  5 2017 Arkady L. Shane <ashejn@russianfedora.pro> 26-2.R
+- bump release to rebuild
+
 * Thu Jun  1 2017 Arkady L. Shane <ashejn@russianfedora.pro> 26-1.R
 - use rfremix-cloud-product-environment
 
