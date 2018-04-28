@@ -3,7 +3,7 @@
 
 Name:           fedora-productimg-cloud
 Version:        26
-Release:        2%{?dist}.R
+Release:        3%{?dist}.R
 Summary:        Installer branding and configuration for Fedora Cloud
 
 # Copyright and related rights waived via CC0
@@ -70,6 +70,9 @@ popd
 %{_datadir}/fedora-productimg/product.img
 
 %changelog
+* Wed Feb 07 2018 Fedora Release Engineering <releng@fedoraproject.org> - 26-3.R
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_28_Mass_Rebuild
+
 * Tue Sep  5 2017 Arkady L. Shane <ashejn@russianfedora.pro> 26-2.R
 - bump release to rebuild
 
